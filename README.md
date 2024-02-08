@@ -1,16 +1,25 @@
-### Hi there 👋
+using SubSystem.NoWhere;
 
-<!--
-**Owlusion/Owlusion** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+AProgrammerFromNoWhere thatsMe = new AProgrammerFromNoWhere
+{
+    Name = "Berkay",
+    Surname = "Arabacı",
+    DateOfBirth = new DateTime(1997, 08, 10),
+    LandOfBirth = "NoWhere",
+    ZodiacSign = "Leo",
+    Department = "Programmer, Process&Systems",
+    Interests = "while sleeping: learning, coding, reading, watching"
+};
 
-Here are some ideas to get you started:
+Console.WriteLine("What did you expect to see on the console?")
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+public class AProgrammerFromNoWhere
+{
+    public string Name { get; set; }
+    public string Surname { get; set; }
+    public DateTime DateOfBirth { get; set; }
+    public string LandOfBirth { get; set; }
+    public string ZodiacSign { get; set; }
+    public string Department { get; set; }
+    public string Interests { get; set; }
+}
