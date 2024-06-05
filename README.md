@@ -1,14 +1,14 @@
-using SubSystem.NoWhere;
+using subSystem.someWhere;
 
-AProgrammerFromNoWhere thatsMe = new AProgrammerFromNoWhere
+aBerkayFromSomeWhere thatsMe = new aBerkayFromSomeWhere
 {
     Name = "Berkay",
     Surname = "Arabacı",
     DateOfBirth = new DateTime(1997, 08, 10),
-    LandOfBirth = "NoWhere",
+    LandOfBirth = "Somewhere",
     ZodiacSign = "Leo",
     Department = "Programmer, Process&Systems",
-    Interests = "while sleeping: learning, coding, reading, watching"
+    Interests = "learning, searching, coding, reading, watching"
 };
 
 Console.WriteLine("What did you expect to see on the console?")
